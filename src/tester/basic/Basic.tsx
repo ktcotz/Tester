@@ -1,3 +1,8 @@
 export const Basic = () => {
-  return <div>Basic component!</div>;
+  return (
+    <div>
+      <h1>To jest nagłówek</h1>
+      <div>Basic component</div>
+    </div>
+  );
 };
