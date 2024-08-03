@@ -1,7 +1,9 @@
+import { Basic } from "./tester/basic/Basic";
+
 export const App = () => {
   return (
     <div>
-      <h1>Tester!</h1>
+      <Basic />
     </div>
   );
 };
