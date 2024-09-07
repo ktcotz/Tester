@@ -60,6 +60,7 @@ describe("Summary Form tests", () => {
     expect(popover).toBeInTheDocument();
 
     await user.unhover(termsAndConditions);
+    
     expect(popover).not.toBeInTheDocument();
   });
 });

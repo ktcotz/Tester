@@ -7,4 +7,17 @@ export const handlers = [
       setup: "Best joke!",
     });
   }),
+
+  http.get("http://localhost:3030/scoops", () => {
+    return HttpResponse.json([
+      {
+        name: "Chocolate",
+        imagePath: "/images/chocolate.png",
+      },
+      {
+        name: "Vanilla",
+        imagePath: "/images/vanilla.png",
+      },
+    ]);
+  }),
 ];

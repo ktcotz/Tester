@@ -8,11 +8,11 @@ import { Sundae } from "./tester/sundae/sundae-starter/Sundae";
 export const App = () => {
   return (
     <div>
-      <Basic />
+      {/* <Basic />
       <Person />
       <Counter />
       <Fetch />
-      <Practice />
+      <Practice /> */}
       <Sundae />
     </div>
   );
